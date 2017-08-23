@@ -12,17 +12,6 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 
-PRODUCT_PACKAGES += \
-    libloc_api_v02 \
-    libtime_genoff \
-    datastatusnotification \
-    QtiTelephonyService \
-    shutdownlistener \
-    TimeService \
-    CNEService \
-    com.qualcomm.location \
-    qcrilmsgtunnel \
-    colorservice \
-    qcrilhook
+# Pick up overlay for features that depend on non-open-source files
 
-$(call inherit-product, vendor/zuk/z2_row/vendor/copyfiles.mk)
+$(call inherit-product, vendor/zuk/z2_row/z2_row-vendor-blobs.mk)
