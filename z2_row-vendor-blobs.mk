@@ -651,7 +651,6 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/z2_row/proprietary/etc/tfa98xx/coldboot.patch:system/etc/tfa98xx/coldboot.patch \
     vendor/zuk/z2_row/proprietary/etc/tfa98xx/shenqi_music.eq:system/etc/tfa98xx/shenqi_music.eq \
     vendor/zuk/z2_row/proprietary/etc/capability.xml:system/etc/capability.xml \
-    vendor/zuk/z2_row/proprietary/etc/init.qcom.post_boot.sh:system/etc/init.qcom.post_boot.sh \
     vendor/zuk/z2_row/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
     vendor/zuk/z2_row/proprietary/lib/libvpplibrary.so:system/lib/libvpplibrary.so \
     vendor/zuk/z2_row/proprietary/lib/libOmxVpp.so:system/lib/libOmxVpp.so \
