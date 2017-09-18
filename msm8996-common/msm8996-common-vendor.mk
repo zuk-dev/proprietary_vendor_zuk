@@ -24,7 +24,6 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/libmmcamera_tintless_algo.so:system/vendor/lib/libmmcamera_tintless_algo.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/libOmxAmrwbplusDec.so:system/vendor/lib/libOmxAmrwbplusDec.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/libsensor_reg.so:system/vendor/lib/libsensor_reg.so \
-    vendor/zuk/msm8996-common/proprietary/vendor/lib/libdpmctmgr.so:system/vendor/lib/libdpmctmgr.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/libmmcamera_ppbase_module.so:system/vendor/lib/libmmcamera_ppbase_module.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/libacdbloader.so:system/vendor/lib/libacdbloader.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/libdsutils.so:system/vendor/lib/libdsutils.so \
@@ -72,6 +71,7 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/libI420colorconvert.so:system/vendor/lib/libI420colorconvert.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/libmmcamera_isp_hdr_be_stats46.so:system/vendor/lib/libmmcamera_isp_hdr_be_stats46.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/libmmcamera_isp_ltm47.so:system/vendor/lib/libmmcamera_isp_ltm47.so \
+    vendor/zuk/msm8996-common/proprietary/vendor/lib/com.quicinc.cne.server@1.0.so:system/vendor/lib/com.quicinc.cne.server@1.0.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/libadiertac.so:system/vendor/lib/libadiertac.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/libmmcamera2_memleak.so:system/vendor/lib/libmmcamera2_memleak.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/lib-rtpdaemoninterface.so:system/vendor/lib/lib-rtpdaemoninterface.so \
@@ -105,6 +105,8 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/libqmi_client_qmux.so:system/vendor/lib/libqmi_client_qmux.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/libsmemlog.so:system/vendor/lib/libsmemlog.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/lib-imsrcs.so:system/vendor/lib/lib-imsrcs.so \
+    vendor/zuk/msm8996-common/proprietary/vendor/lib/com.quicinc.cne.server@2.0.so:system/vendor/lib/com.quicinc.cne.server@2.0.so \
+    vendor/zuk/msm8996-common/proprietary/vendor/lib/com.quicinc.cne.constants@1.0.so:system/vendor/lib/com.quicinc.cne.constants@1.0.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/libQtiTether.so:system/vendor/lib/libQtiTether.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/libqti-iop-client.so:system/vendor/lib/libqti-iop-client.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/libquipc_os_api.so:system/vendor/lib/libquipc_os_api.so \
@@ -156,12 +158,12 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/libqct_resampler.so:system/vendor/lib/libqct_resampler.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/libdisp-aba.so:system/vendor/lib/libdisp-aba.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/libadsprpc.so:system/vendor/lib/libadsprpc.so \
-    vendor/zuk/msm8996-common/proprietary/vendor/lib/libdpmframework.so:system/vendor/lib/libdpmframework.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/libqmi_encdec.so:system/vendor/lib/libqmi_encdec.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/libmmcamera2_c2d_module.so:system/vendor/lib/libmmcamera2_c2d_module.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/vendor.qti.gnss@1.0_vendor.so:system/vendor/lib/vendor.qti.gnss@1.0_vendor.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/libmmcamera_isp_cac47.so:system/vendor/lib/libmmcamera_isp_cac47.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/libqcci_legacy.so:system/vendor/lib/libqcci_legacy.so \
+    vendor/zuk/msm8996-common/proprietary/vendor/lib/com.quicinc.cne.constants@2.0.so:system/vendor/lib/com.quicinc.cne.constants@2.0.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/libfastcvopt.so:system/vendor/lib/libfastcvopt.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/libmmcamera_isp_bg_stats46.so:system/vendor/lib/libmmcamera_isp_bg_stats46.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/libmorpho_image_stab4.so:system/vendor/lib/libmorpho_image_stab4.so \
@@ -177,10 +179,10 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/libmmcamera_isp_rs_stats46.so:system/vendor/lib/libmmcamera_isp_rs_stats46.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/libmmcamera_isp_color_xform_viewfinder46.so:system/vendor/lib/libmmcamera_isp_color_xform_viewfinder46.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/lib-dplmedia.so:system/vendor/lib/lib-dplmedia.so \
+    vendor/zuk/msm8996-common/proprietary/vendor/lib/com.quicinc.cne.api@1.0.so:system/vendor/lib/com.quicinc.cne.api@1.0.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/libcne.so:system/vendor/lib/libcne.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/libslimclient.so:system/vendor/lib/libslimclient.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/libmmcamera_tuning_lookup.so:system/vendor/lib/libmmcamera_tuning_lookup.so \
-    vendor/zuk/msm8996-common/proprietary/vendor/lib/libvendorconn.so:system/vendor/lib/libvendorconn.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/libadpcmdec.so:system/vendor/lib/libadpcmdec.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/lib-imscamera.so:system/vendor/lib/lib-imscamera.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/libadsp_hvx_callback_skel.so:system/vendor/lib/libadsp_hvx_callback_skel.so \
@@ -202,7 +204,6 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/libmmcamera2_iface_modules.so:system/vendor/lib/libmmcamera2_iface_modules.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/libmmcamera_isp_black_level47.so:system/vendor/lib/libmmcamera_isp_black_level47.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
-    vendor/zuk/msm8996-common/proprietary/vendor/lib/libdpmtcm.so:system/vendor/lib/libdpmtcm.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/libmmcamera_isp_pedestal_correct46.so:system/vendor/lib/libmmcamera_isp_pedestal_correct46.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/lib-imss.so:system/vendor/lib/lib-imss.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/libdsi_netctrl.so:system/vendor/lib/libdsi_netctrl.so \
@@ -231,7 +232,6 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/libmmcamera_isp_fovcrop_video46.so:system/vendor/lib/libmmcamera_isp_fovcrop_video46.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/sensors.ssc.so:system/vendor/lib/sensors.ssc.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/libubifocus.so:system/vendor/lib/libubifocus.so \
-    vendor/zuk/msm8996-common/proprietary/vendor/lib/libdpmnsrm.so:system/vendor/lib/libdpmnsrm.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/libmmcamera_imglib_faceproc_adspstub.so:system/vendor/lib/libmmcamera_imglib_faceproc_adspstub.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/libfastcvadsp_stub.so:system/vendor/lib/libfastcvadsp_stub.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/librs_adreno.so:system/vendor/lib/librs_adreno.so \
@@ -290,7 +290,6 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/libOmxAlacDecSw.so:system/vendor/lib/libOmxAlacDecSw.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/libmmcamera_isp_bf_stats47.so:system/vendor/lib/libmmcamera_isp_bf_stats47.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/libmmcamera_ppeiscore.so:system/vendor/lib/libmmcamera_ppeiscore.so \
-    vendor/zuk/msm8996-common/proprietary/vendor/lib/libdpmfdmgr.so:system/vendor/lib/libdpmfdmgr.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/libacdb-fts.so:system/vendor/lib/libacdb-fts.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/libqmi_common_so.so:system/vendor/lib/libqmi_common_so.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/soundfx/libqcreverb.so:system/vendor/lib/soundfx/libqcreverb.so \
@@ -302,6 +301,21 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/libqmi.so:system/vendor/lib/libqmi.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/libqdi.so:system/vendor/lib/libqdi.so \
     vendor/zuk/msm8996-common/proprietary/vendor/etc/sensors/hals.conf:system/vendor/etc/sensors/hals.conf \
+    vendor/zuk/msm8996-common/proprietary/vendor/etc/cne/wqeclient/ATT/ATT_profile1.xml:system/vendor/etc/cne/wqeclient/ATT/ATT_profile1.xml \
+    vendor/zuk/msm8996-common/proprietary/vendor/etc/cne/wqeclient/ATT/ATT_profile2.xml:system/vendor/etc/cne/wqeclient/ATT/ATT_profile2.xml \
+    vendor/zuk/msm8996-common/proprietary/vendor/etc/cne/wqeclient/ATT/ATT_profile4.xml:system/vendor/etc/cne/wqeclient/ATT/ATT_profile4.xml \
+    vendor/zuk/msm8996-common/proprietary/vendor/etc/cne/wqeclient/ATT/ATT_profile3.xml:system/vendor/etc/cne/wqeclient/ATT/ATT_profile3.xml \
+    vendor/zuk/msm8996-common/proprietary/vendor/etc/cne/wqeclient/ROW/ROW_profile5.xml:system/vendor/etc/cne/wqeclient/ROW/ROW_profile5.xml \
+    vendor/zuk/msm8996-common/proprietary/vendor/etc/cne/wqeclient/ROW/ROW_profile3.xml:system/vendor/etc/cne/wqeclient/ROW/ROW_profile3.xml \
+    vendor/zuk/msm8996-common/proprietary/vendor/etc/cne/wqeclient/ROW/ROW_profile2.xml:system/vendor/etc/cne/wqeclient/ROW/ROW_profile2.xml \
+    vendor/zuk/msm8996-common/proprietary/vendor/etc/cne/wqeclient/ROW/ROW_profile1.xml:system/vendor/etc/cne/wqeclient/ROW/ROW_profile1.xml \
+    vendor/zuk/msm8996-common/proprietary/vendor/etc/cne/wqeclient/ROW/ROW_profile4.xml:system/vendor/etc/cne/wqeclient/ROW/ROW_profile4.xml \
+    vendor/zuk/msm8996-common/proprietary/vendor/etc/cne/wqeclient/VZW/VZW_profile2.xml:system/vendor/etc/cne/wqeclient/VZW/VZW_profile2.xml \
+    vendor/zuk/msm8996-common/proprietary/vendor/etc/cne/wqeclient/VZW/VZW_profile5.xml:system/vendor/etc/cne/wqeclient/VZW/VZW_profile5.xml \
+    vendor/zuk/msm8996-common/proprietary/vendor/etc/cne/wqeclient/VZW/VZW_profile6.xml:system/vendor/etc/cne/wqeclient/VZW/VZW_profile6.xml \
+    vendor/zuk/msm8996-common/proprietary/vendor/etc/cne/wqeclient/VZW/VZW_profile4.xml:system/vendor/etc/cne/wqeclient/VZW/VZW_profile4.xml \
+    vendor/zuk/msm8996-common/proprietary/vendor/etc/cne/wqeclient/VZW/VZW_profile1.xml:system/vendor/etc/cne/wqeclient/VZW/VZW_profile1.xml \
+    vendor/zuk/msm8996-common/proprietary/vendor/etc/cne/wqeclient/VZW/VZW_profile3.xml:system/vendor/etc/cne/wqeclient/VZW/VZW_profile3.xml \
     vendor/zuk/msm8996-common/proprietary/vendor/etc/perf-profile5.conf:system/vendor/etc/perf-profile5.conf \
     vendor/zuk/msm8996-common/proprietary/vendor/etc/perf-profile4.conf:system/vendor/etc/perf-profile4.conf \
     vendor/zuk/msm8996-common/proprietary/vendor/etc/msm_irqbalance.conf:system/vendor/etc/msm_irqbalance.conf \
@@ -358,6 +372,7 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/msm8996-common/proprietary/vendor/lib64/libI420colorconvert.so:system/vendor/lib64/libI420colorconvert.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib64/libizat_core.so:system/vendor/lib64/libizat_core.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib64/liblocationservice_glue.so:system/vendor/lib64/liblocationservice_glue.so \
+    vendor/zuk/msm8996-common/proprietary/vendor/lib64/com.quicinc.cne.server@1.0.so:system/vendor/lib64/com.quicinc.cne.server@1.0.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib64/libDRPlugin.so:system/vendor/lib64/libDRPlugin.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib64/libadiertac.so:system/vendor/lib64/libadiertac.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib64/libmmcamera2_memleak.so:system/vendor/lib64/libmmcamera2_memleak.so \
@@ -389,6 +404,8 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/msm8996-common/proprietary/vendor/lib64/libqmi_client_qmux.so:system/vendor/lib64/libqmi_client_qmux.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib64/libsmemlog.so:system/vendor/lib64/libsmemlog.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib64/lib-imsrcs.so:system/vendor/lib64/lib-imsrcs.so \
+    vendor/zuk/msm8996-common/proprietary/vendor/lib64/com.quicinc.cne.server@2.0.so:system/vendor/lib64/com.quicinc.cne.server@2.0.so \
+    vendor/zuk/msm8996-common/proprietary/vendor/lib64/com.quicinc.cne.constants@1.0.so:system/vendor/lib64/com.quicinc.cne.constants@1.0.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib64/libQtiTether.so:system/vendor/lib64/libQtiTether.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib64/libqti-iop-client.so:system/vendor/lib64/libqti-iop-client.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib64/libquipc_os_api.so:system/vendor/lib64/libquipc_os_api.so \
@@ -419,20 +436,20 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/msm8996-common/proprietary/vendor/lib64/lib-imsrcscmclient.so:system/vendor/lib64/lib-imsrcscmclient.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib64/libdisp-aba.so:system/vendor/lib64/libdisp-aba.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib64/libadsprpc.so:system/vendor/lib64/libadsprpc.so \
-    vendor/zuk/msm8996-common/proprietary/vendor/lib64/libdpmframework.so:system/vendor/lib64/libdpmframework.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib64/libqmi_encdec.so:system/vendor/lib64/libqmi_encdec.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib64/libloc_api_v02.so:system/vendor/lib64/libloc_api_v02.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib64/vendor.qti.gnss@1.0_vendor.so:system/vendor/lib64/vendor.qti.gnss@1.0_vendor.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib64/libqcci_legacy.so:system/vendor/lib64/libqcci_legacy.so \
+    vendor/zuk/msm8996-common/proprietary/vendor/lib64/com.quicinc.cne.constants@2.0.so:system/vendor/lib64/com.quicinc.cne.constants@2.0.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib64/libfastcvopt.so:system/vendor/lib64/libfastcvopt.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib64/libqti-perfd-client.so:system/vendor/lib64/libqti-perfd-client.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib64/libwms.so:system/vendor/lib64/libwms.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib64/libqti-iop.so:system/vendor/lib64/libqti-iop.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib64/libsdmextension.so:system/vendor/lib64/libsdmextension.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib64/lib-dplmedia.so:system/vendor/lib64/lib-dplmedia.so \
+    vendor/zuk/msm8996-common/proprietary/vendor/lib64/com.quicinc.cne.api@1.0.so:system/vendor/lib64/com.quicinc.cne.api@1.0.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib64/libcne.so:system/vendor/lib64/libcne.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib64/libslimclient.so:system/vendor/lib64/libslimclient.so \
-    vendor/zuk/msm8996-common/proprietary/vendor/lib64/libvendorconn.so:system/vendor/lib64/libvendorconn.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib64/libxtwifi_ulp_adaptor.so:system/vendor/lib64/libxtwifi_ulp_adaptor.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib64/lib-imscamera.so:system/vendor/lib64/lib-imscamera.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib64/libloc_externalDr.so:system/vendor/lib64/libloc_externalDr.so \
@@ -445,7 +462,6 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/msm8996-common/proprietary/vendor/lib64/libtime_genoff.so:system/vendor/lib64/libtime_genoff.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib64/libmmcamera2_q3a_core.so:system/vendor/lib64/libmmcamera2_q3a_core.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib64/libxml.so:system/vendor/lib64/libxml.so \
-    vendor/zuk/msm8996-common/proprietary/vendor/lib64/libdpmtcm.so:system/vendor/lib64/libdpmtcm.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib64/lib-imss.so:system/vendor/lib64/lib-imss.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib64/libdsi_netctrl.so:system/vendor/lib64/libdsi_netctrl.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib64/libOmxApeDecSw.so:system/vendor/lib64/libOmxApeDecSw.so \
@@ -463,7 +479,6 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/msm8996-common/proprietary/vendor/lib64/libqisl.so:system/vendor/lib64/libqisl.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib64/sensors.ssc.so:system/vendor/lib64/sensors.ssc.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib64/liblowi_wifihal.so:system/vendor/lib64/liblowi_wifihal.so \
-    vendor/zuk/msm8996-common/proprietary/vendor/lib64/libdpmnsrm.so:system/vendor/lib64/libdpmnsrm.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib64/libril-qc-ltedirectdisc.so:system/vendor/lib64/libril-qc-ltedirectdisc.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib64/libfastcvadsp_stub.so:system/vendor/lib64/libfastcvadsp_stub.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib64/librs_adreno.so:system/vendor/lib64/librs_adreno.so \
@@ -513,7 +528,6 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/msm8996-common/proprietary/vendor/lib64/libOmxAlacDecSw.so:system/vendor/lib64/libOmxAlacDecSw.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib64/libprotobuf-cpp-Hlit.so:system/vendor/lib64/libprotobuf-cpp-Hlit.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib64/libsecureui.so:system/vendor/lib64/libsecureui.so \
-    vendor/zuk/msm8996-common/proprietary/vendor/lib64/libdpmfdmgr.so:system/vendor/lib64/libdpmfdmgr.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib64/libacdb-fts.so:system/vendor/lib64/libacdb-fts.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib64/libqmi_common_so.so:system/vendor/lib64/libqmi_common_so.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib64/soundfx/libqcreverb.so:system/vendor/lib64/soundfx/libqcreverb.so \
@@ -531,6 +545,7 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/msm8996-common/proprietary/vendor/bin/mm-qcamera-daemon:system/vendor/bin/mm-qcamera-daemon \
     vendor/zuk/msm8996-common/proprietary/vendor/bin/loc_launcher:system/vendor/bin/loc_launcher \
     vendor/zuk/msm8996-common/proprietary/vendor/bin/qseeproxydaemon:system/vendor/bin/qseeproxydaemon \
+    vendor/zuk/msm8996-common/proprietary/vendor/bin/cnd:system/vendor/bin/cnd \
     vendor/zuk/msm8996-common/proprietary/vendor/bin/xtra-daemon:system/vendor/bin/xtra-daemon \
     vendor/zuk/msm8996-common/proprietary/vendor/bin/xtwifi-client:system/vendor/bin/xtwifi-client \
     vendor/zuk/msm8996-common/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
@@ -542,23 +557,6 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/msm8996-common/proprietary/lib/libtfa98xx.so:system/lib/libtfa98xx.so \
     vendor/zuk/msm8996-common/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
     vendor/zuk/msm8996-common/proprietary/etc/sensors/sensor_def_qcomdev.conf:system/etc/sensors/sensor_def_qcomdev.conf \
-    vendor/zuk/msm8996-common/proprietary/etc/cne/andsfCne.xml:system/etc/cne/andsfCne.xml \
-    vendor/zuk/msm8996-common/proprietary/etc/cne/wqeclient/ATT/ATT_profile1.xml:system/etc/cne/wqeclient/ATT/ATT_profile1.xml \
-    vendor/zuk/msm8996-common/proprietary/etc/cne/wqeclient/ATT/ATT_profile2.xml:system/etc/cne/wqeclient/ATT/ATT_profile2.xml \
-    vendor/zuk/msm8996-common/proprietary/etc/cne/wqeclient/ATT/ATT_profile4.xml:system/etc/cne/wqeclient/ATT/ATT_profile4.xml \
-    vendor/zuk/msm8996-common/proprietary/etc/cne/wqeclient/ATT/ATT_profile3.xml:system/etc/cne/wqeclient/ATT/ATT_profile3.xml \
-    vendor/zuk/msm8996-common/proprietary/etc/cne/wqeclient/ROW/ROW_profile5.xml:system/etc/cne/wqeclient/ROW/ROW_profile5.xml \
-    vendor/zuk/msm8996-common/proprietary/etc/cne/wqeclient/ROW/ROW_profile3.xml:system/etc/cne/wqeclient/ROW/ROW_profile3.xml \
-    vendor/zuk/msm8996-common/proprietary/etc/cne/wqeclient/ROW/ROW_profile2.xml:system/etc/cne/wqeclient/ROW/ROW_profile2.xml \
-    vendor/zuk/msm8996-common/proprietary/etc/cne/wqeclient/ROW/ROW_profile1.xml:system/etc/cne/wqeclient/ROW/ROW_profile1.xml \
-    vendor/zuk/msm8996-common/proprietary/etc/cne/wqeclient/ROW/ROW_profile4.xml:system/etc/cne/wqeclient/ROW/ROW_profile4.xml \
-    vendor/zuk/msm8996-common/proprietary/etc/cne/wqeclient/VZW/VZW_profile2.xml:system/etc/cne/wqeclient/VZW/VZW_profile2.xml \
-    vendor/zuk/msm8996-common/proprietary/etc/cne/wqeclient/VZW/VZW_profile5.xml:system/etc/cne/wqeclient/VZW/VZW_profile5.xml \
-    vendor/zuk/msm8996-common/proprietary/etc/cne/wqeclient/VZW/VZW_profile6.xml:system/etc/cne/wqeclient/VZW/VZW_profile6.xml \
-    vendor/zuk/msm8996-common/proprietary/etc/cne/wqeclient/VZW/VZW_profile4.xml:system/etc/cne/wqeclient/VZW/VZW_profile4.xml \
-    vendor/zuk/msm8996-common/proprietary/etc/cne/wqeclient/VZW/VZW_profile1.xml:system/etc/cne/wqeclient/VZW/VZW_profile1.xml \
-    vendor/zuk/msm8996-common/proprietary/etc/cne/wqeclient/VZW/VZW_profile3.xml:system/etc/cne/wqeclient/VZW/VZW_profile3.xml \
-    vendor/zuk/msm8996-common/proprietary/etc/cne/SwimConfig.xml:system/etc/cne/SwimConfig.xml \
     vendor/zuk/msm8996-common/proprietary/etc/firmware/cpp_firmware_v1_8_0.fw:system/etc/firmware/cpp_firmware_v1_8_0.fw \
     vendor/zuk/msm8996-common/proprietary/etc/firmware/cpp_firmware_v1_5_2.fw:system/etc/firmware/cpp_firmware_v1_5_2.fw \
     vendor/zuk/msm8996-common/proprietary/etc/firmware/nvm_tlv_1.3.bin:system/etc/firmware/nvm_tlv_1.3.bin \
@@ -607,19 +605,12 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/msm8996-common/proprietary/etc/firmware/a530v1_pm4.fw:system/etc/firmware/a530v1_pm4.fw \
     vendor/zuk/msm8996-common/proprietary/etc/firmware/a530_zap.b00:system/etc/firmware/a530_zap.b00 \
     vendor/zuk/msm8996-common/proprietary/etc/firmware/a540_gpmu.fw2:system/etc/firmware/a540_gpmu.fw2 \
-    vendor/zuk/msm8996-common/proprietary/etc/dpm/nsrm/NsrmConfiguration.xml:system/etc/dpm/nsrm/NsrmConfiguration.xml \
-    vendor/zuk/msm8996-common/proprietary/etc/dpm/dpm.conf:system/etc/dpm/dpm.conf \
     vendor/zuk/msm8996-common/proprietary/etc/data/netmgr_config.xml:system/etc/data/netmgr_config.xml \
     vendor/zuk/msm8996-common/proprietary/etc/data/dsi_config.xml:system/etc/data/dsi_config.xml \
     vendor/zuk/msm8996-common/proprietary/etc/camera/ov8865_chromatix.xml:system/etc/camera/ov8865_chromatix.xml \
     vendor/zuk/msm8996-common/proprietary/etc/permissions/qti_permissions.xml:system/etc/permissions/qti_permissions.xml \
     vendor/zuk/msm8996-common/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
     vendor/zuk/msm8996-common/proprietary/etc/permissions/telephonyservice.xml:system/etc/permissions/telephonyservice.xml \
-    vendor/zuk/msm8996-common/proprietary/etc/permissions/cneapiclient.xml:system/etc/permissions/cneapiclient.xml \
-    vendor/zuk/msm8996-common/proprietary/etc/permissions/ConnectivityExt.xml:system/etc/permissions/ConnectivityExt.xml \
-    vendor/zuk/msm8996-common/proprietary/etc/permissions/dpmapi.xml:system/etc/permissions/dpmapi.xml \
-    vendor/zuk/msm8996-common/proprietary/etc/permissions/com.qti.dpmframework.xml:system/etc/permissions/com.qti.dpmframework.xml \
-    vendor/zuk/msm8996-common/proprietary/etc/permissions/com.quicinc.cne.xml:system/etc/permissions/com.quicinc.cne.xml \
     vendor/zuk/msm8996-common/proprietary/lib64/lib_fpc_tac_shared.so:system/lib64/lib_fpc_tac_shared.so \
     vendor/zuk/msm8996-common/proprietary/lib64/vendor.display.postproc@1.0.so:system/lib64/vendor.display.postproc@1.0.so \
     vendor/zuk/msm8996-common/proprietary/lib64/libextmedia_jni.so:system/lib64/libextmedia_jni.so \
@@ -638,8 +629,6 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/msm8996-common/proprietary/bin/pm-service:system/bin/pm-service \
     vendor/zuk/msm8996-common/proprietary/bin/ipacm-diag:system/bin/ipacm-diag \
     vendor/zuk/msm8996-common/proprietary/bin/qseecomd:system/bin/qseecomd \
-    vendor/zuk/msm8996-common/proprietary/bin/dpmd:system/bin/dpmd \
-    vendor/zuk/msm8996-common/proprietary/bin/cnd:system/bin/cnd \
     vendor/zuk/msm8996-common/proprietary/bin/ims_rtp_daemon:system/bin/ims_rtp_daemon \
     vendor/zuk/msm8996-common/proprietary/bin/energy-awareness:system/bin/energy-awareness \
     vendor/zuk/msm8996-common/proprietary/bin/radish:system/bin/radish \
@@ -654,17 +643,17 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/msm8996-common/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
     vendor/zuk/msm8996-common/proprietary/bin/iop:system/bin/iop \
     vendor/zuk/msm8996-common/proprietary/bin/pm-proxy:system/bin/pm-proxy \
-    vendor/zuk/msm8996-common/proprietary/framework/ConnectivityExt.jar:system/framework/ConnectivityExt.jar \
-    vendor/zuk/msm8996-common/proprietary/framework/dpmapi.jar:system/framework/dpmapi.jar \
-    vendor/zuk/msm8996-common/proprietary/framework/tcmclient.jar:system/framework/tcmclient.jar \
-    vendor/zuk/msm8996-common/proprietary/framework/cneapiclient.jar:system/framework/cneapiclient.jar \
     vendor/zuk/msm8996-common/proprietary/framework/qti-telephony-common.jar:system/framework/qti-telephony-common.jar \
     vendor/zuk/msm8996-common/proprietary/framework/qcrilhook.jar:system/framework/qcrilhook.jar \
-    vendor/zuk/msm8996-common/proprietary/framework/com.qti.dpmframework.jar:system/framework/com.qti.dpmframework.jar \
     vendor/zuk/msm8996-common/proprietary/framework/QtiTelephonyServicelibrary.jar:system/framework/QtiTelephonyServicelibrary.jar \
     vendor/zuk/msm8996-common/proprietary/framework/com.quicinc.cne.jar:system/framework/com.quicinc.cne.jar
 
 PRODUCT_PACKAGES += \
+    com.quicinc.cne.api@1.0 \
+    com.quicinc.cne.constants@1.0 \
+    com.quicinc.cne.constants@2.0 \
+    com.quicinc.cne.server@1.0 \
+    com.quicinc.cne.server@2.0 \
     libloc_api_v02 \
     libsdm-disp-vndapis \
     libgpustats \
@@ -673,7 +662,6 @@ PRODUCT_PACKAGES += \
     QtiTelephonyService \
     shutdownlistener \
     TimeService \
-    CNEService \
     qcrilmsgtunnel \
     qcrilhook \
     ims \
