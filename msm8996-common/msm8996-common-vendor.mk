@@ -600,6 +600,7 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/msm8996-common/proprietary/vendor/bin/qseeproxydaemon:system/vendor/bin/qseeproxydaemon \
     vendor/zuk/msm8996-common/proprietary/vendor/bin/cnd:system/vendor/bin/cnd \
     vendor/zuk/msm8996-common/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
+    vendor/zuk/msm8996-common/proprietary/vendor/bin/adsprpcd:system/vendor/bin/adsprpcd \
     vendor/zuk/msm8996-common/proprietary/vendor/bin/pd-mapper:system/vendor/bin/pd-mapper \
     vendor/zuk/msm8996-common/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
     vendor/zuk/msm8996-common/proprietary/lib/vendor.display.postproc@1.0.so:system/lib/vendor.display.postproc@1.0.so \
@@ -658,7 +659,6 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/msm8996-common/proprietary/bin/netmgrd:system/bin/netmgrd \
     vendor/zuk/msm8996-common/proprietary/bin/xtwifi-inet-agent:system/bin/xtwifi-inet-agent \
     vendor/zuk/msm8996-common/proprietary/bin/port-bridge:system/bin/port-bridge \
-    vendor/zuk/msm8996-common/proprietary/bin/adsprpcd:system/bin/adsprpcd \
     vendor/zuk/msm8996-common/proprietary/bin/irsc_util:system/bin/irsc_util \
     vendor/zuk/msm8996-common/proprietary/bin/ssr_setup:system/bin/ssr_setup \
     vendor/zuk/msm8996-common/proprietary/bin/tftp_server:system/bin/tftp_server \
