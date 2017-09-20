@@ -405,6 +405,7 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/msm8996-common/proprietary/vendor/lib64/libdiag.so:system/vendor/lib64/libdiag.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib64/lib-imsSDP.so:system/vendor/lib64/lib-imsSDP.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib64/libsd_sdk_display.so:system/vendor/lib64/libsd_sdk_display.so \
+    vendor/zuk/msm8996-common/proprietary/vendor/lib64/libloc_ds_api.so:system/vendor/lib64/libloc_ds_api.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib64/libqdp.so:system/vendor/lib64/libqdp.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib64/libaudcal.so:system/vendor/lib64/libaudcal.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib64/lib-imsxml.so:system/vendor/lib64/lib-imsxml.so \
@@ -450,6 +451,7 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/msm8996-common/proprietary/vendor/lib64/libadsprpc.so:system/vendor/lib64/libadsprpc.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib64/libdpmframework.so:system/vendor/lib64/libdpmframework.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib64/libqmi_encdec.so:system/vendor/lib64/libqmi_encdec.so \
+    vendor/zuk/msm8996-common/proprietary/vendor/lib64/libloc_api_v02.so:system/vendor/lib64/libloc_api_v02.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib64/libqcci_legacy.so:system/vendor/lib64/libqcci_legacy.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib64/libfastcvopt.so:system/vendor/lib64/libfastcvopt.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib64/libasn1crtx.so:system/vendor/lib64/libasn1crtx.so \
@@ -552,6 +554,7 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/msm8996-common/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
     vendor/zuk/msm8996-common/proprietary/vendor/bin/slim_daemon:system/vendor/bin/slim_daemon \
     vendor/zuk/msm8996-common/proprietary/vendor/bin/qti:system/vendor/bin/qti \
+    vendor/zuk/msm8996-common/proprietary/vendor/bin/loc_launcher:system/vendor/bin/loc_launcher \
     vendor/zuk/msm8996-common/proprietary/vendor/bin/qseeproxydaemon:system/vendor/bin/qseeproxydaemon \
     vendor/zuk/msm8996-common/proprietary/vendor/bin/xtwifi-client:system/vendor/bin/xtwifi-client \
     vendor/zuk/msm8996-common/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
@@ -676,7 +679,6 @@ PRODUCT_PACKAGES += \
     shutdownlistener \
     TimeService \
     CNEService \
-    com.qualcomm.location \
     qcrilmsgtunnel \
     colorservice \
     qcrilhook \
