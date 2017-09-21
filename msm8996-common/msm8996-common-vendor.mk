@@ -258,6 +258,7 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/libxml.so:system/vendor/lib/libxml.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/libdpmtcm.so:system/vendor/lib/libdpmtcm.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/libmmcamera_isp_pedestal_correct46.so:system/vendor/lib/libmmcamera_isp_pedestal_correct46.so \
+    vendor/zuk/msm8996-common/proprietary/vendor/lib/libaudio_log_utils.so:system/vendor/lib/libaudio_log_utils.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/lib-imss.so:system/vendor/lib/lib-imss.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/libdsi_netctrl.so:system/vendor/lib/libdsi_netctrl.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/libmmcamera_isp_fovcrop_viewfinder46.so:system/vendor/lib/libmmcamera_isp_fovcrop_viewfinder46.so \
@@ -333,6 +334,7 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/libtzdrmgenprov.so:system/vendor/lib/libtzdrmgenprov.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/libFidoCrypto.so:system/vendor/lib/libFidoCrypto.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/libbtnv.so:system/vendor/lib/libbtnv.so \
+    vendor/zuk/msm8996-common/proprietary/vendor/lib/libqtigef.so:system/vendor/lib/libqtigef.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/libaudiodevarb.so:system/vendor/lib/libaudiodevarb.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/libFidoSuiJNI.so:system/vendor/lib/libFidoSuiJNI.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/libadsp_hvx_stub.so:system/vendor/lib/libadsp_hvx_stub.so \
@@ -529,6 +531,7 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/msm8996-common/proprietary/vendor/lib64/libmmcamera2_q3a_core.so:system/vendor/lib64/libmmcamera2_q3a_core.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib64/libxml.so:system/vendor/lib64/libxml.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib64/libdpmtcm.so:system/vendor/lib64/libdpmtcm.so \
+    vendor/zuk/msm8996-common/proprietary/vendor/lib64/libaudio_log_utils.so:system/vendor/lib64/libaudio_log_utils.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib64/lib-imss.so:system/vendor/lib64/lib-imss.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib64/libdsi_netctrl.so:system/vendor/lib64/libdsi_netctrl.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib64/libOmxApeDecSw.so:system/vendor/lib64/libOmxApeDecSw.so \
@@ -586,6 +589,7 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/msm8996-common/proprietary/vendor/lib64/libtzdrmgenprov.so:system/vendor/lib64/libtzdrmgenprov.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib64/libFidoCrypto.so:system/vendor/lib64/libFidoCrypto.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib64/libbtnv.so:system/vendor/lib64/libbtnv.so \
+    vendor/zuk/msm8996-common/proprietary/vendor/lib64/libqtigef.so:system/vendor/lib64/libqtigef.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib64/liblowi_wifihal_nl.so:system/vendor/lib64/liblowi_wifihal_nl.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib64/libaudiodevarb.so:system/vendor/lib64/libaudiodevarb.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib64/liblowi_client.so:system/vendor/lib64/liblowi_client.so \
