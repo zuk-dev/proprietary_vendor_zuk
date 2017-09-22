@@ -127,6 +127,7 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/com.quicinc.cne.server@1.0.so:system/vendor/lib/com.quicinc.cne.server@1.0.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/libadiertac.so:system/vendor/lib/libadiertac.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/libmmcamera2_memleak.so:system/vendor/lib/libmmcamera2_memleak.so \
+    vendor/zuk/msm8996-common/proprietary/vendor/lib/libril.so:system/vendor/lib/libril.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/lib-rtpdaemoninterface.so:system/vendor/lib/lib-rtpdaemoninterface.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/libllvm-glnext.so:system/vendor/lib/libllvm-glnext.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/libmmcamera2_sensor_modules.so:system/vendor/lib/libmmcamera2_sensor_modules.so \
@@ -461,6 +462,7 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/msm8996-common/proprietary/vendor/lib64/libDRPlugin.so:system/vendor/lib64/libDRPlugin.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib64/libadiertac.so:system/vendor/lib64/libadiertac.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib64/libmmcamera2_memleak.so:system/vendor/lib64/libmmcamera2_memleak.so \
+    vendor/zuk/msm8996-common/proprietary/vendor/lib64/libril.so:system/vendor/lib64/libril.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib64/lib-rtpdaemoninterface.so:system/vendor/lib64/lib-rtpdaemoninterface.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib64/libllvm-glnext.so:system/vendor/lib64/libllvm-glnext.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib64/libqmiservices.so:system/vendor/lib64/libqmiservices.so \
@@ -649,6 +651,7 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/msm8996-common/proprietary/vendor/bin/imsrcsd:system/vendor/bin/imsrcsd \
     vendor/zuk/msm8996-common/proprietary/vendor/bin/time_daemon:system/vendor/bin/time_daemon \
     vendor/zuk/msm8996-common/proprietary/vendor/bin/perfd:system/vendor/bin/perfd \
+    vendor/zuk/msm8996-common/proprietary/vendor/bin/hw/rild:system/vendor/bin/hw/rild \
     vendor/zuk/msm8996-common/proprietary/vendor/bin/hw/vendor.display.color@1.0-service:system/vendor/bin/hw/vendor.display.color@1.0-service \
     vendor/zuk/msm8996-common/proprietary/vendor/bin/hw/vendor.qti.gnss@1.0-service:system/vendor/bin/hw/vendor.qti.gnss@1.0-service \
     vendor/zuk/msm8996-common/proprietary/vendor/bin/qti:system/vendor/bin/qti \
