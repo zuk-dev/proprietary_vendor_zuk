@@ -560,7 +560,7 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/z2_row/proprietary/etc/public.libraries.txt:system/etc/public.libraries.txt \
     vendor/zuk/z2_row/proprietary/etc/dpm/nsrm/NsrmConfiguration.xml:system/etc/dpm/nsrm/NsrmConfiguration.xml \
     vendor/zuk/z2_row/proprietary/etc/dpm/dpm.conf:system/etc/dpm/dpm.conf \
-    vendor/zuk/z2_row/proprietary/etc/sensors/hals.conf:system/etc/sensors/hals.conf \
+    vendor/zuk/z2_row/proprietary/vendor/etc/sensors/hals.conf:system/vendor/etc/sensors/hals.conf \
     vendor/zuk/z2_row/proprietary/etc/sensors/sensor_def_qcomdev.conf:system/etc/sensors/sensor_def_qcomdev.conf \
     vendor/zuk/z2_row/proprietary/etc/firmware/nvm_tlv_3.2.bin:system/etc/firmware/nvm_tlv_3.2.bin \
     vendor/zuk/z2_row/proprietary/etc/firmware/btfw32.tlv:system/etc/firmware/btfw32.tlv \
