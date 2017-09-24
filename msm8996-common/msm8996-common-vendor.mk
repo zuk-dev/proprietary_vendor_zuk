@@ -528,6 +528,7 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/msm8996-common/proprietary/vendor/bin/qti:system/vendor/bin/qti \
     vendor/zuk/msm8996-common/proprietary/vendor/bin/loc_launcher:system/vendor/bin/loc_launcher \
     vendor/zuk/msm8996-common/proprietary/vendor/bin/qseeproxydaemon:system/vendor/bin/qseeproxydaemon \
+    vendor/zuk/msm8996-common/proprietary/vendor/bin/xtra-daemon:system/vendor/bin/xtra-daemon \
     vendor/zuk/msm8996-common/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
     vendor/zuk/msm8996-common/proprietary/vendor/bin/pd-mapper:system/vendor/bin/pd-mapper \
     vendor/zuk/msm8996-common/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
