@@ -148,7 +148,6 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/z2_row/proprietary/vendor/lib/libchromatix_ov8865_zsl_video.so:system/vendor/lib/libchromatix_ov8865_zsl_video.so \
     vendor/zuk/z2_row/proprietary/vendor/lib/libaudcal.so:system/vendor/lib/libaudcal.so \
     vendor/zuk/z2_row/proprietary/vendor/lib/libmmcamera2_c2d_module.so:system/vendor/lib/libmmcamera2_c2d_module.so \
-    vendor/zuk/z2_row/proprietary/vendor/lib/libqti-iop.so:system/vendor/lib/libqti-iop.so \
     vendor/zuk/z2_row/proprietary/vendor/lib/libqomx_jpegdec.so:system/vendor/lib/libqomx_jpegdec.so \
     vendor/zuk/z2_row/proprietary/vendor/lib/libchromatix_ov8865_common.so:system/vendor/lib/libchromatix_ov8865_common.so \
     vendor/zuk/z2_row/proprietary/vendor/lib/libwms.so:system/vendor/lib/libwms.so \
@@ -192,7 +191,6 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/z2_row/proprietary/vendor/lib/libdisp-aba.so:system/vendor/lib/libdisp-aba.so \
     vendor/zuk/z2_row/proprietary/vendor/lib/libqcci_legacy.so:system/vendor/lib/libqcci_legacy.so \
     vendor/zuk/z2_row/proprietary/vendor/lib/libdpmctmgr.so:system/vendor/lib/libdpmctmgr.so \
-    vendor/zuk/z2_row/proprietary/vendor/lib/libqti_performance.so:system/vendor/lib/libqti_performance.so \
     vendor/zuk/z2_row/proprietary/vendor/lib/libaudioalsa.so:system/vendor/lib/libaudioalsa.so \
     vendor/zuk/z2_row/proprietary/vendor/lib/libCB.so:system/vendor/lib/libCB.so \
     vendor/zuk/z2_row/proprietary/vendor/lib/libtzdrmgenprov.so:system/vendor/lib/libtzdrmgenprov.so \
@@ -625,7 +623,6 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/z2_row/proprietary/etc/permissions/telephonyservice.xml:system/etc/permissions/telephonyservice.xml \
     vendor/zuk/z2_row/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
     vendor/zuk/z2_row/proprietary/etc/permissions/dpmapi.xml:system/etc/permissions/dpmapi.xml \
-    vendor/zuk/z2_row/proprietary/etc/permissions/com.qualcomm.qti.Performance.xml:system/etc/permissions/com.qualcomm.qti.Performance.xml \
     vendor/zuk/z2_row/proprietary/etc/permissions/cneapiclient.xml:system/etc/permissions/cneapiclient.xml \
     vendor/zuk/z2_row/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
     vendor/zuk/z2_row/proprietary/etc/permissions/com.qti.snapdragon.sdk.display.xml:system/etc/permissions/com.qti.snapdragon.sdk.display.xml \
@@ -673,7 +670,6 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/z2_row/proprietary/framework/qcrilhook.jar:system/framework/qcrilhook.jar \
     vendor/zuk/z2_row/proprietary/framework/dpmapi.jar:system/framework/dpmapi.jar \
     vendor/zuk/z2_row/proprietary/framework/com.qti.location.sdk.jar:system/framework/com.qti.location.sdk.jar \
-    vendor/zuk/z2_row/proprietary/framework/QPerformance.jar:system/framework/QPerformance.jar \
     vendor/zuk/z2_row/proprietary/framework/com.qti.snapdragon.sdk.display.jar:system/framework/com.qti.snapdragon.sdk.display.jar \
     vendor/zuk/z2_row/proprietary/framework/ConnectivityExt.jar:system/framework/ConnectivityExt.jar \
     vendor/zuk/z2_row/proprietary/framework/com.qti.dpmframework.jar:system/framework/com.qti.dpmframework.jar \
@@ -698,8 +694,5 @@ PRODUCT_PACKAGES += \
     qcrilmsgtunnel \
     colorservice \
     qcrilhook \
-    com.qualcomm.qti.Performance.xml \
-    libqti_performance \
-    QPerformance \
     ims \
     imssettings
