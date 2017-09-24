@@ -292,7 +292,6 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/z2_row/proprietary/vendor/lib/libmmcamera_isp_bf_stats47.so:system/vendor/lib/libmmcamera_isp_bf_stats47.so \
     vendor/zuk/z2_row/proprietary/vendor/lib/libchromatix_ov8865_zsl_preview.so:system/vendor/lib/libchromatix_ov8865_zsl_preview.so \
     vendor/zuk/z2_row/proprietary/vendor/lib/libadsp_default_listener.so:system/vendor/lib/libadsp_default_listener.so \
-    vendor/zuk/z2_row/proprietary/vendor/lib/liblqe.so:system/vendor/lib/liblqe.so \
     vendor/zuk/z2_row/proprietary/vendor/lib/libchromatix_s5k2m8sx_hfr_60.so:system/vendor/lib/libchromatix_s5k2m8sx_hfr_60.so \
     vendor/zuk/z2_row/proprietary/vendor/lib/libmmcamera2_sensor_modules.so:system/vendor/lib/libmmcamera2_sensor_modules.so \
     vendor/zuk/z2_row/proprietary/vendor/lib/libmmcamera_faceproc2.so:system/vendor/lib/libmmcamera_faceproc2.so \
