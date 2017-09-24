@@ -547,7 +547,6 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/z2_row/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
     vendor/zuk/z2_row/proprietary/bin/port-bridge:system/bin/port-bridge \
     vendor/zuk/z2_row/proprietary/bin/time_daemon:system/bin/time_daemon \
-    vendor/zuk/z2_row/proprietary/bin/cnss_diag:system/bin/cnss_diag \
     vendor/zuk/z2_row/proprietary/bin/cnss-daemon:system/bin/cnss-daemon \
     vendor/zuk/z2_row/proprietary/bin/imscmservice:system/bin/imscmservice \
     vendor/zuk/z2_row/proprietary/bin/loc_launcher:system/bin/loc_launcher \
