@@ -541,7 +541,6 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/z2_row/proprietary/vendor/lib64/libaudiodevarb.so:system/vendor/lib64/libaudiodevarb.so \
     vendor/zuk/z2_row/proprietary/vendor/lib64/liblowi_client.so:system/vendor/lib64/liblowi_client.so \
     vendor/zuk/z2_row/proprietary/vendor/lib64/libFidoSuiJNI.so:system/vendor/lib64/libFidoSuiJNI.so \
-    vendor/zuk/z2_row/proprietary/vendor/lib64/libloc_xtra.so:system/vendor/lib64/libloc_xtra.so \
     vendor/zuk/z2_row/proprietary/vendor/lib64/liblqe.so:system/vendor/lib64/liblqe.so \
     vendor/zuk/z2_row/proprietary/vendor/lib64/libOmxAlacDec.so:system/vendor/lib64/libOmxAlacDec.so \
     vendor/zuk/z2_row/proprietary/vendor/lib64/libril-qc-qmi-1.so:system/vendor/lib64/libril-qc-qmi-1.so \
@@ -671,6 +670,7 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/z2_row/proprietary/etc/firmware/a540_gpmu.fw2:system/etc/firmware/a540_gpmu.fw2 \
     vendor/zuk/z2_row/proprietary/etc/public.libraries.txt:system/etc/public.libraries.txt \
     vendor/zuk/z2_row/proprietary/etc/calib.cfg:system/etc/calib.cfg \
+    vendor/zuk/z2_row/proprietary/etc/xtra_root_cert.pem:system/etc/xtra_root_cert.pem \
     vendor/zuk/z2_row/proprietary/etc/dpm/nsrm/NsrmConfiguration.xml:system/etc/dpm/nsrm/NsrmConfiguration.xml \
     vendor/zuk/z2_row/proprietary/etc/dpm/dpm.conf:system/etc/dpm/dpm.conf \
     vendor/zuk/z2_row/proprietary/etc/data/netmgr_config.xml:system/etc/data/netmgr_config.xml \
@@ -680,6 +680,7 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/z2_row/proprietary/etc/camera/s5k2m8sx_chromatix.xml:system/etc/camera/s5k2m8sx_chromatix.xml \
     vendor/zuk/z2_row/proprietary/etc/camera/msm8996_camera.xml:system/etc/camera/msm8996_camera.xml \
     vendor/zuk/z2_row/proprietary/etc/camera/ov8865_chromatix.xml:system/etc/camera/ov8865_chromatix.xml \
+    vendor/zuk/z2_row/proprietary/etc/permissions/com.qualcomm.location.vzw_library.xml:system/etc/permissions/com.qualcomm.location.vzw_library.xml \
     vendor/zuk/z2_row/proprietary/etc/permissions/com.qualcomm.location.xml:system/etc/permissions/com.qualcomm.location.xml \
     vendor/zuk/z2_row/proprietary/etc/permissions/qti_permissions.xml:system/etc/permissions/qti_permissions.xml \
     vendor/zuk/z2_row/proprietary/etc/permissions/qcrilhook.xml:system/etc/permissions/qcrilhook.xml \
@@ -688,6 +689,7 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/z2_row/proprietary/etc/permissions/cneapiclient.xml:system/etc/permissions/cneapiclient.xml \
     vendor/zuk/z2_row/proprietary/etc/permissions/ConnectivityExt.xml:system/etc/permissions/ConnectivityExt.xml \
     vendor/zuk/z2_row/proprietary/etc/permissions/com.qti.snapdragon.sdk.display.xml:system/etc/permissions/com.qti.snapdragon.sdk.display.xml \
+    vendor/zuk/z2_row/proprietary/etc/permissions/izat.xt.srv.xml:system/etc/permissions/izat.xt.srv.xml \
     vendor/zuk/z2_row/proprietary/etc/permissions/dpmapi.xml:system/etc/permissions/dpmapi.xml \
     vendor/zuk/z2_row/proprietary/etc/permissions/com.qti.dpmframework.xml:system/etc/permissions/com.qti.dpmframework.xml \
     vendor/zuk/z2_row/proprietary/etc/permissions/com.quicinc.cne.xml:system/etc/permissions/com.quicinc.cne.xml \
@@ -701,11 +703,9 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/z2_row/proprietary/etc/tfa98xx/shenqi_music.preset:system/etc/tfa98xx/shenqi_music.preset \
     vendor/zuk/z2_row/proprietary/lib64/lib_fpc_tac_shared.so:system/lib64/lib_fpc_tac_shared.so \
     vendor/zuk/z2_row/proprietary/lib64/libloc_ds_api.so:system/lib64/libloc_ds_api.so \
-    vendor/zuk/z2_row/proprietary/lib64/libloc_eng.so:system/lib64/libloc_eng.so \
     vendor/zuk/z2_row/proprietary/lib64/libloc_api_v02.so:system/lib64/libloc_api_v02.so \
     vendor/zuk/z2_row/proprietary/lib64/libextmedia_jni.so:system/lib64/libextmedia_jni.so \
     vendor/zuk/z2_row/proprietary/lib64/libtfa98xx.so:system/lib64/libtfa98xx.so \
-    vendor/zuk/z2_row/proprietary/lib64/libloc_core.so:system/lib64/libloc_core.so \
     vendor/zuk/z2_row/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/zuk/z2_row/proprietary/bin/qmuxd:system/bin/qmuxd \
     vendor/zuk/z2_row/proprietary/bin/imsdatadaemon:system/bin/imsdatadaemon \
@@ -724,13 +724,16 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/z2_row/proprietary/bin/loc_launcher:system/bin/loc_launcher \
     vendor/zuk/z2_row/proprietary/bin/cnd:system/bin/cnd \
     vendor/zuk/z2_row/proprietary/bin/ims_rtp_daemon:system/bin/ims_rtp_daemon \
+    vendor/zuk/z2_row/proprietary/bin/xtwifi-client:system/bin/xtwifi-client \
     vendor/zuk/z2_row/proprietary/bin/energy-awareness:system/bin/energy-awareness \
     vendor/zuk/z2_row/proprietary/bin/radish:system/bin/radish \
     vendor/zuk/z2_row/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
     vendor/zuk/z2_row/proprietary/bin/netmgrd:system/bin/netmgrd \
+    vendor/zuk/z2_row/proprietary/bin/xtwifi-inet-agent:system/bin/xtwifi-inet-agent \
     vendor/zuk/z2_row/proprietary/bin/port-bridge:system/bin/port-bridge \
     vendor/zuk/z2_row/proprietary/bin/adsprpcd:system/bin/adsprpcd \
     vendor/zuk/z2_row/proprietary/bin/irsc_util:system/bin/irsc_util \
+    vendor/zuk/z2_row/proprietary/bin/ssr_setup:system/bin/ssr_setup \
     vendor/zuk/z2_row/proprietary/bin/tftp_server:system/bin/tftp_server \
     vendor/zuk/z2_row/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
     vendor/zuk/z2_row/proprietary/bin/iop:system/bin/iop \
@@ -740,6 +743,8 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/z2_row/proprietary/framework/com.qti.snapdragon.sdk.display.jar:system/framework/com.qti.snapdragon.sdk.display.jar \
     vendor/zuk/z2_row/proprietary/framework/dpmapi.jar:system/framework/dpmapi.jar \
     vendor/zuk/z2_row/proprietary/framework/tcmclient.jar:system/framework/tcmclient.jar \
+    vendor/zuk/z2_row/proprietary/framework/izat.xt.srv.jar:system/framework/izat.xt.srv.jar \
+    vendor/zuk/z2_row/proprietary/framework/com.qualcomm.location.vzw_library.jar:system/framework/com.qualcomm.location.vzw_library.jar \
     vendor/zuk/z2_row/proprietary/framework/cneapiclient.jar:system/framework/cneapiclient.jar \
     vendor/zuk/z2_row/proprietary/framework/qti-telephony-common.jar:system/framework/qti-telephony-common.jar \
     vendor/zuk/z2_row/proprietary/framework/qcrilhook.jar:system/framework/qcrilhook.jar \
