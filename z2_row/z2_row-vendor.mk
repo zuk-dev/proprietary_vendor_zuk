@@ -32,6 +32,7 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/z2_row/proprietary/vendor/lib/libchromatix_ov8865_default_video_none.so:system/vendor/lib/libchromatix_ov8865_default_video_none.so \
     vendor/zuk/z2_row/proprietary/vendor/lib/libchromatix_ov8865_cpp_hfr_90.so:system/vendor/lib/libchromatix_ov8865_cpp_hfr_90.so \
     vendor/zuk/z2_row/proprietary/vendor/lib/libchromatix_s5k2m8sx_liveshot.so:system/vendor/lib/libchromatix_s5k2m8sx_liveshot.so \
+    vendor/zuk/z2_row/proprietary/vendor/lib/sensors.maxim-bio.so:system/vendor/lib/sensors.maxim-bio.so \
     vendor/zuk/z2_row/proprietary/vendor/lib/libchromatix_s5k2m8sx_postproc.so:system/vendor/lib/libchromatix_s5k2m8sx_postproc.so \
     vendor/zuk/z2_row/proprietary/vendor/lib/libchromatix_s5k2m8sx_cpp_snapshot.so:system/vendor/lib/libchromatix_s5k2m8sx_cpp_snapshot.so \
     vendor/zuk/z2_row/proprietary/vendor/lib/libchromatix_ov8865_hfr_120_none.so:system/vendor/lib/libchromatix_ov8865_hfr_120_none.so \
@@ -67,6 +68,10 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/z2_row/proprietary/vendor/lib/libchromatix_s5k2m8sx_hfr_120.so:system/vendor/lib/libchromatix_s5k2m8sx_hfr_120.so \
     vendor/zuk/z2_row/proprietary/vendor/lib/libchromatix_s5k2m8sx_cpp_liveshot.so:system/vendor/lib/libchromatix_s5k2m8sx_cpp_liveshot.so \
     vendor/zuk/z2_row/proprietary/vendor/lib/libchromatix_ov8865_hfr_120.so:system/vendor/lib/libchromatix_ov8865_hfr_120.so \
+    vendor/zuk/z2_row/proprietary/vendor/etc/sensors/hals.conf:system/vendor/etc/sensors/hals.conf \
+    vendor/zuk/z2_row/proprietary/vendor/etc/sensors/sensor_def_qcomdev.conf:system/vendor/etc/sensors/sensor_def_qcomdev.conf \
+    vendor/zuk/z2_row/proprietary/vendor/lib64/sensors.maxim-bio.so:system/vendor/lib64/sensors.maxim-bio.so \
+    vendor/zuk/z2_row/proprietary/lib/libsensorservice.so:system/lib/libsensorservice.so \
     vendor/zuk/z2_row/proprietary/etc/acdbdata/MTP/MTP_General_cal.acdb:system/etc/acdbdata/MTP/MTP_General_cal.acdb \
     vendor/zuk/z2_row/proprietary/etc/acdbdata/MTP/MTP_Handset_cal.acdb:system/etc/acdbdata/MTP/MTP_Handset_cal.acdb \
     vendor/zuk/z2_row/proprietary/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb:system/etc/acdbdata/MTP/MTP_Bluetooth_cal.acdb \
@@ -80,6 +85,7 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/z2_row/proprietary/etc/capability.xml:system/etc/capability.xml \
     vendor/zuk/z2_row/proprietary/etc/camera/s5k2m8sx_chromatix.xml:system/etc/camera/s5k2m8sx_chromatix.xml \
     vendor/zuk/z2_row/proprietary/etc/camera/msm8996_camera.xml:system/etc/camera/msm8996_camera.xml \
+    vendor/zuk/z2_row/proprietary/etc/permissions/com.maxim.biosensor.xml:system/etc/permissions/com.maxim.biosensor.xml \
     vendor/zuk/z2_row/proprietary/etc/tfa98xx/shenqi_speech.eq:system/etc/tfa98xx/shenqi_speech.eq \
     vendor/zuk/z2_row/proprietary/etc/tfa98xx/shenqi_speech.preset:system/etc/tfa98xx/shenqi_speech.preset \
     vendor/zuk/z2_row/proprietary/etc/tfa98xx/shenqi_music.eq:system/etc/tfa98xx/shenqi_music.eq \
@@ -87,4 +93,12 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/z2_row/proprietary/etc/tfa98xx/shenqi.speaker:system/etc/tfa98xx/shenqi.speaker \
     vendor/zuk/z2_row/proprietary/etc/tfa98xx/TFA9890_N1B12_N1C3_v2.config:system/etc/tfa98xx/TFA9890_N1B12_N1C3_v2.config \
     vendor/zuk/z2_row/proprietary/etc/tfa98xx/TFA9890_N1C3_2_1_1.patch:system/etc/tfa98xx/TFA9890_N1C3_2_1_1.patch \
-    vendor/zuk/z2_row/proprietary/etc/tfa98xx/shenqi_music.preset:system/etc/tfa98xx/shenqi_music.preset
+    vendor/zuk/z2_row/proprietary/etc/tfa98xx/shenqi_music.preset:system/etc/tfa98xx/shenqi_music.preset \
+    vendor/zuk/z2_row/proprietary/lib64/libsensorservice.so:system/lib64/libsensorservice.so \
+    vendor/zuk/z2_row/proprietary/bin/sensorservice:system/bin/sensorservice \
+    vendor/zuk/z2_row/proprietary/framework/com.maxim.biosensor.jar:system/framework/com.maxim.biosensor.jar
+
+PRODUCT_PACKAGES += \
+    LSF-User-Phone \
+    LSF \
+    XuiUHealth
