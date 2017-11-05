@@ -646,7 +646,6 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/msm8996-common/proprietary/bin/loc_launcher:system/bin/loc_launcher \
     vendor/zuk/msm8996-common/proprietary/bin/cnd:system/bin/cnd \
     vendor/zuk/msm8996-common/proprietary/bin/ims_rtp_daemon:system/bin/ims_rtp_daemon \
-    vendor/zuk/msm8996-common/proprietary/bin/xtwifi-client:system/bin/xtwifi-client \
     vendor/zuk/msm8996-common/proprietary/bin/energy-awareness:system/bin/energy-awareness \
     vendor/zuk/msm8996-common/proprietary/bin/radish:system/bin/radish \
     vendor/zuk/msm8996-common/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
