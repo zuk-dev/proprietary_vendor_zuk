@@ -17,6 +17,54 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/msm8996-common/proprietary/usr/idc/usf_tsc.idc:system/usr/idc/usf_tsc.idc \
     vendor/zuk/msm8996-common/proprietary/usr/idc/usf_tsc_ptr.idc:system/usr/idc/usf_tsc_ptr.idc \
     vendor/zuk/msm8996-common/proprietary/vendor/qcril.db:system/vendor/qcril.db \
+    vendor/zuk/msm8996-common/proprietary/vendor/firmware/cpp_firmware_v1_8_0.fw:system/vendor/firmware/cpp_firmware_v1_8_0.fw \
+    vendor/zuk/msm8996-common/proprietary/vendor/firmware/cpp_firmware_v1_5_2.fw:system/vendor/firmware/cpp_firmware_v1_5_2.fw \
+    vendor/zuk/msm8996-common/proprietary/vendor/firmware/nvm_tlv_1.3.bin:system/vendor/firmware/nvm_tlv_1.3.bin \
+    vendor/zuk/msm8996-common/proprietary/vendor/firmware/nvm_tlv_2.1.bin:system/vendor/firmware/nvm_tlv_2.1.bin \
+    vendor/zuk/msm8996-common/proprietary/vendor/firmware/a530_zap.b02:system/vendor/firmware/a530_zap.b02 \
+    vendor/zuk/msm8996-common/proprietary/vendor/firmware/a530v3_seq.fw2:system/vendor/firmware/a530v3_seq.fw2 \
+    vendor/zuk/msm8996-common/proprietary/vendor/firmware/a330_pfp.fw:system/vendor/firmware/a330_pfp.fw \
+    vendor/zuk/msm8996-common/proprietary/vendor/firmware/a225_pfp.fw:system/vendor/firmware/a225_pfp.fw \
+    vendor/zuk/msm8996-common/proprietary/vendor/firmware/a300_pfp.fw:system/vendor/firmware/a300_pfp.fw \
+    vendor/zuk/msm8996-common/proprietary/vendor/firmware/a225_pm4.fw:system/vendor/firmware/a225_pm4.fw \
+    vendor/zuk/msm8996-common/proprietary/vendor/firmware/nvm_tlv_3.2.bin:system/vendor/firmware/nvm_tlv_3.2.bin \
+    vendor/zuk/msm8996-common/proprietary/vendor/firmware/btfw32.tlv:system/vendor/firmware/btfw32.tlv \
+    vendor/zuk/msm8996-common/proprietary/vendor/firmware/cpp_firmware_v1_1_1.fw:system/vendor/firmware/cpp_firmware_v1_1_1.fw \
+    vendor/zuk/msm8996-common/proprietary/vendor/firmware/a530v2_seq.fw2:system/vendor/firmware/a530v2_seq.fw2 \
+    vendor/zuk/msm8996-common/proprietary/vendor/firmware/rampatch_tlv_3.2.tlv:system/vendor/firmware/rampatch_tlv_3.2.tlv \
+    vendor/zuk/msm8996-common/proprietary/vendor/firmware/nvm_tlv.bin:system/vendor/firmware/nvm_tlv.bin \
+    vendor/zuk/msm8996-common/proprietary/vendor/firmware/cpp_firmware_v1_6_0.fw:system/vendor/firmware/cpp_firmware_v1_6_0.fw \
+    vendor/zuk/msm8996-common/proprietary/vendor/firmware/nvm_tlv_3.0.bin:system/vendor/firmware/nvm_tlv_3.0.bin \
+    vendor/zuk/msm8996-common/proprietary/vendor/firmware/a530v1_pfp.fw:system/vendor/firmware/a530v1_pfp.fw \
+    vendor/zuk/msm8996-common/proprietary/vendor/firmware/a530_zap.b01:system/vendor/firmware/a530_zap.b01 \
+    vendor/zuk/msm8996-common/proprietary/vendor/firmware/a530_zap.mdt:system/vendor/firmware/a530_zap.mdt \
+    vendor/zuk/msm8996-common/proprietary/vendor/firmware/a530_pfp.fw:system/vendor/firmware/a530_pfp.fw \
+    vendor/zuk/msm8996-common/proprietary/vendor/firmware/a420_pfp.fw:system/vendor/firmware/a420_pfp.fw \
+    vendor/zuk/msm8996-common/proprietary/vendor/firmware/a530_zap.elf:system/vendor/firmware/a530_zap.elf \
+    vendor/zuk/msm8996-common/proprietary/vendor/firmware/a420_pm4.fw:system/vendor/firmware/a420_pm4.fw \
+    vendor/zuk/msm8996-common/proprietary/vendor/firmware/a530v3_gpmu.fw2:system/vendor/firmware/a530v3_gpmu.fw2 \
+    vendor/zuk/msm8996-common/proprietary/vendor/firmware/rampatch_tlv_2.1.tlv:system/vendor/firmware/rampatch_tlv_2.1.tlv \
+    vendor/zuk/msm8996-common/proprietary/vendor/firmware/rampatch_tlv_1.3.tlv:system/vendor/firmware/rampatch_tlv_1.3.tlv \
+    vendor/zuk/msm8996-common/proprietary/vendor/firmware/a530_gpmu.fw2:system/vendor/firmware/a530_gpmu.fw2 \
+    vendor/zuk/msm8996-common/proprietary/vendor/firmware/cpp_firmware_v1_4_0.fw:system/vendor/firmware/cpp_firmware_v1_4_0.fw \
+    vendor/zuk/msm8996-common/proprietary/vendor/firmware/btnv32.bin:system/vendor/firmware/btnv32.bin \
+    vendor/zuk/msm8996-common/proprietary/vendor/firmware/cpp_firmware_v1_12_0.fw:system/vendor/firmware/cpp_firmware_v1_12_0.fw \
+    vendor/zuk/msm8996-common/proprietary/vendor/firmware/cpp_firmware_v1_1_6.fw:system/vendor/firmware/cpp_firmware_v1_1_6.fw \
+    vendor/zuk/msm8996-common/proprietary/vendor/firmware/bdwlan30.bin:system/vendor/firmware/bdwlan30.bin \
+    vendor/zuk/msm8996-common/proprietary/vendor/firmware/a330_pm4.fw:system/vendor/firmware/a330_pm4.fw \
+    vendor/zuk/msm8996-common/proprietary/vendor/firmware/rampatch_tlv_3.0.tlv:system/vendor/firmware/rampatch_tlv_3.0.tlv \
+    vendor/zuk/msm8996-common/proprietary/vendor/firmware/rampatch_tlv.img:system/vendor/firmware/rampatch_tlv.img \
+    vendor/zuk/msm8996-common/proprietary/vendor/firmware/a530_pm4.fw:system/vendor/firmware/a530_pm4.fw \
+    vendor/zuk/msm8996-common/proprietary/vendor/firmware/cpp_firmware_v1_10_0.fw:system/vendor/firmware/cpp_firmware_v1_10_0.fw \
+    vendor/zuk/msm8996-common/proprietary/vendor/firmware/leia_pm4_470.fw:system/vendor/firmware/leia_pm4_470.fw \
+    vendor/zuk/msm8996-common/proprietary/vendor/firmware/a300_pm4.fw:system/vendor/firmware/a300_pm4.fw \
+    vendor/zuk/msm8996-common/proprietary/vendor/firmware/a225p5_pm4.fw:system/vendor/firmware/a225p5_pm4.fw \
+    vendor/zuk/msm8996-common/proprietary/vendor/firmware/leia_pfp_470.fw:system/vendor/firmware/leia_pfp_470.fw \
+    vendor/zuk/msm8996-common/proprietary/vendor/firmware/cpp_firmware_v1_5_0.fw:system/vendor/firmware/cpp_firmware_v1_5_0.fw \
+    vendor/zuk/msm8996-common/proprietary/vendor/firmware/cpp_firmware_v1_2_0.fw:system/vendor/firmware/cpp_firmware_v1_2_0.fw \
+    vendor/zuk/msm8996-common/proprietary/vendor/firmware/a530v1_pm4.fw:system/vendor/firmware/a530v1_pm4.fw \
+    vendor/zuk/msm8996-common/proprietary/vendor/firmware/a530_zap.b00:system/vendor/firmware/a530_zap.b00 \
+    vendor/zuk/msm8996-common/proprietary/vendor/firmware/a540_gpmu.fw2:system/vendor/firmware/a540_gpmu.fw2 \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/libmmcamera_hdr_gb_lib.so:system/vendor/lib/libmmcamera_hdr_gb_lib.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/libmmcamera_isp_chroma_enhan40.so:system/vendor/lib/libmmcamera_isp_chroma_enhan40.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/libarcsoft_beautyshot.so:system/vendor/lib/libarcsoft_beautyshot.so \
@@ -557,54 +605,6 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/msm8996-common/proprietary/lib/libmm-qcamera.so:system/lib/libmm-qcamera.so \
     vendor/zuk/msm8996-common/proprietary/lib/libqomx_core.so:system/lib/libqomx_core.so \
     vendor/zuk/msm8996-common/proprietary/etc/sensors/sensor_def_qcomdev.conf:system/etc/sensors/sensor_def_qcomdev.conf \
-    vendor/zuk/msm8996-common/proprietary/etc/firmware/cpp_firmware_v1_8_0.fw:system/etc/firmware/cpp_firmware_v1_8_0.fw \
-    vendor/zuk/msm8996-common/proprietary/etc/firmware/cpp_firmware_v1_5_2.fw:system/etc/firmware/cpp_firmware_v1_5_2.fw \
-    vendor/zuk/msm8996-common/proprietary/etc/firmware/nvm_tlv_1.3.bin:system/etc/firmware/nvm_tlv_1.3.bin \
-    vendor/zuk/msm8996-common/proprietary/etc/firmware/nvm_tlv_2.1.bin:system/etc/firmware/nvm_tlv_2.1.bin \
-    vendor/zuk/msm8996-common/proprietary/etc/firmware/a530_zap.b02:system/etc/firmware/a530_zap.b02 \
-    vendor/zuk/msm8996-common/proprietary/etc/firmware/a530v3_seq.fw2:system/etc/firmware/a530v3_seq.fw2 \
-    vendor/zuk/msm8996-common/proprietary/etc/firmware/a330_pfp.fw:system/etc/firmware/a330_pfp.fw \
-    vendor/zuk/msm8996-common/proprietary/etc/firmware/a225_pfp.fw:system/etc/firmware/a225_pfp.fw \
-    vendor/zuk/msm8996-common/proprietary/etc/firmware/a300_pfp.fw:system/etc/firmware/a300_pfp.fw \
-    vendor/zuk/msm8996-common/proprietary/etc/firmware/a225_pm4.fw:system/etc/firmware/a225_pm4.fw \
-    vendor/zuk/msm8996-common/proprietary/etc/firmware/nvm_tlv_3.2.bin:system/etc/firmware/nvm_tlv_3.2.bin \
-    vendor/zuk/msm8996-common/proprietary/etc/firmware/btfw32.tlv:system/etc/firmware/btfw32.tlv \
-    vendor/zuk/msm8996-common/proprietary/etc/firmware/cpp_firmware_v1_1_1.fw:system/etc/firmware/cpp_firmware_v1_1_1.fw \
-    vendor/zuk/msm8996-common/proprietary/etc/firmware/a530v2_seq.fw2:system/etc/firmware/a530v2_seq.fw2 \
-    vendor/zuk/msm8996-common/proprietary/etc/firmware/rampatch_tlv_3.2.tlv:system/etc/firmware/rampatch_tlv_3.2.tlv \
-    vendor/zuk/msm8996-common/proprietary/etc/firmware/nvm_tlv.bin:system/etc/firmware/nvm_tlv.bin \
-    vendor/zuk/msm8996-common/proprietary/etc/firmware/cpp_firmware_v1_6_0.fw:system/etc/firmware/cpp_firmware_v1_6_0.fw \
-    vendor/zuk/msm8996-common/proprietary/etc/firmware/nvm_tlv_3.0.bin:system/etc/firmware/nvm_tlv_3.0.bin \
-    vendor/zuk/msm8996-common/proprietary/etc/firmware/a530v1_pfp.fw:system/etc/firmware/a530v1_pfp.fw \
-    vendor/zuk/msm8996-common/proprietary/etc/firmware/a530_zap.b01:system/etc/firmware/a530_zap.b01 \
-    vendor/zuk/msm8996-common/proprietary/etc/firmware/a530_zap.mdt:system/etc/firmware/a530_zap.mdt \
-    vendor/zuk/msm8996-common/proprietary/etc/firmware/a530_pfp.fw:system/etc/firmware/a530_pfp.fw \
-    vendor/zuk/msm8996-common/proprietary/etc/firmware/a420_pfp.fw:system/etc/firmware/a420_pfp.fw \
-    vendor/zuk/msm8996-common/proprietary/etc/firmware/a530_zap.elf:system/etc/firmware/a530_zap.elf \
-    vendor/zuk/msm8996-common/proprietary/etc/firmware/a420_pm4.fw:system/etc/firmware/a420_pm4.fw \
-    vendor/zuk/msm8996-common/proprietary/etc/firmware/a530v3_gpmu.fw2:system/etc/firmware/a530v3_gpmu.fw2 \
-    vendor/zuk/msm8996-common/proprietary/etc/firmware/rampatch_tlv_2.1.tlv:system/etc/firmware/rampatch_tlv_2.1.tlv \
-    vendor/zuk/msm8996-common/proprietary/etc/firmware/rampatch_tlv_1.3.tlv:system/etc/firmware/rampatch_tlv_1.3.tlv \
-    vendor/zuk/msm8996-common/proprietary/etc/firmware/a530_gpmu.fw2:system/etc/firmware/a530_gpmu.fw2 \
-    vendor/zuk/msm8996-common/proprietary/etc/firmware/cpp_firmware_v1_4_0.fw:system/etc/firmware/cpp_firmware_v1_4_0.fw \
-    vendor/zuk/msm8996-common/proprietary/etc/firmware/btnv32.bin:system/etc/firmware/btnv32.bin \
-    vendor/zuk/msm8996-common/proprietary/etc/firmware/cpp_firmware_v1_12_0.fw:system/etc/firmware/cpp_firmware_v1_12_0.fw \
-    vendor/zuk/msm8996-common/proprietary/etc/firmware/cpp_firmware_v1_1_6.fw:system/etc/firmware/cpp_firmware_v1_1_6.fw \
-    vendor/zuk/msm8996-common/proprietary/etc/firmware/bdwlan30.bin:system/etc/firmware/bdwlan30.bin \
-    vendor/zuk/msm8996-common/proprietary/etc/firmware/a330_pm4.fw:system/etc/firmware/a330_pm4.fw \
-    vendor/zuk/msm8996-common/proprietary/etc/firmware/rampatch_tlv_3.0.tlv:system/etc/firmware/rampatch_tlv_3.0.tlv \
-    vendor/zuk/msm8996-common/proprietary/etc/firmware/rampatch_tlv.img:system/etc/firmware/rampatch_tlv.img \
-    vendor/zuk/msm8996-common/proprietary/etc/firmware/a530_pm4.fw:system/etc/firmware/a530_pm4.fw \
-    vendor/zuk/msm8996-common/proprietary/etc/firmware/cpp_firmware_v1_10_0.fw:system/etc/firmware/cpp_firmware_v1_10_0.fw \
-    vendor/zuk/msm8996-common/proprietary/etc/firmware/leia_pm4_470.fw:system/etc/firmware/leia_pm4_470.fw \
-    vendor/zuk/msm8996-common/proprietary/etc/firmware/a300_pm4.fw:system/etc/firmware/a300_pm4.fw \
-    vendor/zuk/msm8996-common/proprietary/etc/firmware/a225p5_pm4.fw:system/etc/firmware/a225p5_pm4.fw \
-    vendor/zuk/msm8996-common/proprietary/etc/firmware/leia_pfp_470.fw:system/etc/firmware/leia_pfp_470.fw \
-    vendor/zuk/msm8996-common/proprietary/etc/firmware/cpp_firmware_v1_5_0.fw:system/etc/firmware/cpp_firmware_v1_5_0.fw \
-    vendor/zuk/msm8996-common/proprietary/etc/firmware/cpp_firmware_v1_2_0.fw:system/etc/firmware/cpp_firmware_v1_2_0.fw \
-    vendor/zuk/msm8996-common/proprietary/etc/firmware/a530v1_pm4.fw:system/etc/firmware/a530v1_pm4.fw \
-    vendor/zuk/msm8996-common/proprietary/etc/firmware/a530_zap.b00:system/etc/firmware/a530_zap.b00 \
-    vendor/zuk/msm8996-common/proprietary/etc/firmware/a540_gpmu.fw2:system/etc/firmware/a540_gpmu.fw2 \
     vendor/zuk/msm8996-common/proprietary/etc/dpm/nsrm/NsrmConfiguration.xml:system/etc/dpm/nsrm/NsrmConfiguration.xml \
     vendor/zuk/msm8996-common/proprietary/etc/dpm/dpm.conf:system/etc/dpm/dpm.conf \
     vendor/zuk/msm8996-common/proprietary/etc/data/netmgr_config.xml:system/etc/data/netmgr_config.xml \
