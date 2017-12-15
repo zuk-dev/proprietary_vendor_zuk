@@ -617,6 +617,7 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/msm8996-common/proprietary/vendor/bin/thermal-engine:system/vendor/bin/thermal-engine \
     vendor/zuk/msm8996-common/proprietary/vendor/bin/adsprpcd:system/vendor/bin/adsprpcd \
     vendor/zuk/msm8996-common/proprietary/vendor/bin/pd-mapper:system/vendor/bin/pd-mapper \
+    vendor/zuk/msm8996-common/proprietary/vendor/bin/sensors.qcom:system/vendor/bin/sensors.qcom \
     vendor/zuk/msm8996-common/proprietary/lib/libmmjpeg_interface.so:system/lib/libmmjpeg_interface.so \
     vendor/zuk/msm8996-common/proprietary/lib/vendor.display.postproc@1.0.so:system/lib/vendor.display.postproc@1.0.so \
     vendor/zuk/msm8996-common/proprietary/lib/libmmcamera_interface.so:system/lib/libmmcamera_interface.so \
@@ -677,7 +678,6 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/msm8996-common/proprietary/bin/irsc_util:system/bin/irsc_util \
     vendor/zuk/msm8996-common/proprietary/bin/ssr_setup:system/bin/ssr_setup \
     vendor/zuk/msm8996-common/proprietary/bin/tftp_server:system/bin/tftp_server \
-    vendor/zuk/msm8996-common/proprietary/bin/sensors.qcom:system/bin/sensors.qcom \
     vendor/zuk/msm8996-common/proprietary/bin/iop:system/bin/iop \
     vendor/zuk/msm8996-common/proprietary/bin/pm-proxy:system/bin/pm-proxy \
     vendor/zuk/msm8996-common/proprietary/framework/com.qti.location.sdk.jar:system/framework/com.qti.location.sdk.jar \
