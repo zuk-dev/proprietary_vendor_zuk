@@ -706,6 +706,8 @@ PRODUCT_PACKAGES += \
     com.quicinc.cne.constants@2.0 \
     com.quicinc.cne.server@1.0 \
     com.quicinc.cne.server@2.0 \
+    gatekeeper.msm8996 \
+    keystore.msm8996 \
     libgpustats \
     libtime_genoff \
     datastatusnotification \
