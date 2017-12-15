@@ -758,9 +758,7 @@ PRODUCT_PACKAGES += \
     keystore.msm8996 \
     libgpustats \
     libtime_genoff \
-    datastatusnotification \
     QtiTelephonyService \
-    shutdownlistener \
     TimeService \
     qcrilmsgtunnel \
     qcrilhook \
