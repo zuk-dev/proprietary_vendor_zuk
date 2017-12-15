@@ -396,12 +396,7 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/msm8996-common/proprietary/vendor/etc/data/netmgr_config.xml:system/vendor/etc/data/netmgr_config.xml \
     vendor/zuk/msm8996-common/proprietary/vendor/etc/data/dsi_config.xml:system/vendor/etc/data/dsi_config.xml \
     vendor/zuk/msm8996-common/proprietary/vendor/etc/perf-profile6.conf:system/vendor/etc/perf-profile6.conf \
-    vendor/zuk/msm8996-common/proprietary/vendor/etc/permissions/qcrilhook.xml:system/vendor/etc/permissions/qcrilhook.xml \
-    vendor/zuk/msm8996-common/proprietary/vendor/etc/permissions/telephonyservice.xml:system/vendor/etc/permissions/telephonyservice.xml \
-    vendor/zuk/msm8996-common/proprietary/vendor/etc/permissions/qcnvitems.xml:system/vendor/etc/permissions/qcnvitems.xml \
-    vendor/zuk/msm8996-common/proprietary/vendor/etc/permissions/imscm.xml:system/vendor/etc/permissions/imscm.xml \
     vendor/zuk/msm8996-common/proprietary/vendor/etc/permissions/com.qti.snapdragon.sdk.display.xml:system/vendor/etc/permissions/com.qti.snapdragon.sdk.display.xml \
-    vendor/zuk/msm8996-common/proprietary/vendor/etc/permissions/qti-vzw-ims-internal.xml:system/vendor/etc/permissions/qti-vzw-ims-internal.xml \
     vendor/zuk/msm8996-common/proprietary/vendor/etc/perf-profile1.conf:system/vendor/etc/perf-profile1.conf \
     vendor/zuk/msm8996-common/proprietary/vendor/etc/perf-profile0.conf:system/vendor/etc/perf-profile0.conf \
     vendor/zuk/msm8996-common/proprietary/vendor/etc/perf-profile3.conf:system/vendor/etc/perf-profile3.conf \
