@@ -158,6 +158,7 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/libdpmframework.so:system/vendor/lib/libdpmframework.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/libqmi_encdec.so:system/vendor/lib/libqmi_encdec.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/libmmcamera2_c2d_module.so:system/vendor/lib/libmmcamera2_c2d_module.so \
+    vendor/zuk/msm8996-common/proprietary/vendor/lib/vendor.qti.gnss@1.0_vendor.so:system/vendor/lib/vendor.qti.gnss@1.0_vendor.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/libmmcamera_isp_cac47.so:system/vendor/lib/libmmcamera_isp_cac47.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/libqcci_legacy.so:system/vendor/lib/libqcci_legacy.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib/libfastcvopt.so:system/vendor/lib/libfastcvopt.so \
@@ -610,9 +611,9 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/msm8996-common/proprietary/etc/permissions/com.qti.dpmframework.xml:system/etc/permissions/com.qti.dpmframework.xml \
     vendor/zuk/msm8996-common/proprietary/etc/permissions/com.quicinc.cne.xml:system/etc/permissions/com.quicinc.cne.xml \
     vendor/zuk/msm8996-common/proprietary/lib64/lib_fpc_tac_shared.so:system/lib64/lib_fpc_tac_shared.so \
-    vendor/zuk/msm8996-common/proprietary/lib64/libloc_api_v02.so:system/lib64/libloc_api_v02.so \
     vendor/zuk/msm8996-common/proprietary/lib64/vendor.display.postproc@1.0.so:system/lib64/vendor.display.postproc@1.0.so \
     vendor/zuk/msm8996-common/proprietary/lib64/libextmedia_jni.so:system/lib64/libextmedia_jni.so \
+    vendor/zuk/msm8996-common/proprietary/lib64/vendor.qti.gnss@1.0.so:system/lib64/vendor.qti.gnss@1.0.so \
     vendor/zuk/msm8996-common/proprietary/lib64/libtfa98xx.so:system/lib64/libtfa98xx.so \
     vendor/zuk/msm8996-common/proprietary/bin/rmt_storage:system/bin/rmt_storage \
     vendor/zuk/msm8996-common/proprietary/bin/imsdatadaemon:system/bin/imsdatadaemon \
