@@ -526,7 +526,6 @@ PRODUCT_COPY_FILES += \
     vendor/zuk/msm8996-common/proprietary/vendor/lib64/libwqe.so:system/vendor/lib64/libwqe.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib64/lib_remote_simlock.so:system/vendor/lib64/lib_remote_simlock.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib64/libOmxAlacDecSw.so:system/vendor/lib64/libOmxAlacDecSw.so \
-    vendor/zuk/msm8996-common/proprietary/vendor/lib64/libprotobuf-cpp-Hlit.so:system/vendor/lib64/libprotobuf-cpp-Hlit.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib64/libsecureui.so:system/vendor/lib64/libsecureui.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib64/libacdb-fts.so:system/vendor/lib64/libacdb-fts.so \
     vendor/zuk/msm8996-common/proprietary/vendor/lib64/libqmi_common_so.so:system/vendor/lib64/libqmi_common_so.so \
